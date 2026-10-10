@@ -2,5 +2,8 @@
 name = "coffee_maker"
 version = "0.1.0"
 edition = "2024"
+license = "GPL-3.0-only"
+description = "A Rust port of the coffee_maker_ada parser game"
+repository = "https://github.com/rread/coffee_maker_rs"
 
 [dependencies]

@@ -1,8 +1,14 @@
 # coffee_maker_rs
 
-A Rust port of [coffee_maker_ada](../coffee_maker_ada), a tiny 2-word
-parser game. See that project's README for the background and
-`walkthrough.txt` for a solution.
+A Rust port of
+[coffee_maker_ada](https://github.com/c3mnr0nz0yfgvxg4gi0sxhnwl9/coffee_maker_ada),
+a tiny 2-word parser game. See that project's README for the background
+and `walkthrough.txt` for a solution.
+
+This port models the world with separate `Room`, `Thing` and `Verb` types.
+For a port that keeps the original's table-based design, and a version you
+can play in a browser, see
+[coffee_maker_rust](https://github.com/rread/coffee_maker_rust).
 
 ```
 cargo run --release
@@ -30,3 +36,8 @@ Intentional differences, both in how input is read rather than in the game:
 (`tests/transcripts/*.in` → `*.out`). The expected outputs were derived
 from the Ada source rather than from this program, because no Ada
 compiler was available to produce them directly.
+
+## License
+
+GPL-3.0, the same as the Ada original this is ported from. See
+[LICENSE](LICENSE).
